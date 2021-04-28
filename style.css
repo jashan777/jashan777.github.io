@@ -22,7 +22,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #010104;
+  background-color: whitesmoke;
   box-shadow: 0px 10px 0px #ff0303;
   z-index: 1;
 }
@@ -30,6 +30,7 @@ nav {
 .logo img{
   height: 100px;
   width: 100px;
+  z-index: 1;
 }
 
 .menu {
@@ -47,7 +48,7 @@ nav {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1px;
-  color: whitesmoke;
+  color: gray;
 }
 
 a {
@@ -61,10 +62,10 @@ a {
   padding: 0px 22px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: white;
+  color: gray;
   font-weight: 500;
   font-size: 1em;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid rgb(8, 0, 0);
 }
 
 .image {
@@ -112,7 +113,7 @@ a {
   color: white;
   background-color: black;
   border-radius: 20px;
-  box-shadow: 5px 10px 30px rgba(2, 26, 22, 0.2);  
+  box-shadow: 0px 0px 0px 6px rgb(28 53 72);
 }
 
 .resume:hover {
